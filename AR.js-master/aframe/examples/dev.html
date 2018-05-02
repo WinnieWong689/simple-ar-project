@@ -47,7 +47,9 @@
 
 	<!-- Define your 3d scene and enabled ar.js -->
 	<a-scene embedded arjs='trackingMethod: best;'>
-
+		<a-assets>
+			<img id="png" src="./p.png">
+		</a-assets>
 		<!-- Create a anchor to attach your augmented reality -->
 		<a-anchor hit-testing-enabled='true'>
 
@@ -57,7 +59,7 @@
 					<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
 				</a-torus-knot>
 			</a-box-->
-            <a-image src="./p.png"></a-image>
+            <a-image src="#png"></a-image>
 		</a-anchor>
 
 
