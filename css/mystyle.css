@@ -1,0 +1,24 @@
+#bg{
+	width: 100%;
+	position: absolute;
+}
+
+.button{
+	position: absolute;
+	border: 2px solid #e83862;
+	border-radius: 25px;
+	top: 600px;
+	padding: 0px 20px;
+}
+
+#yu{
+	left: 20%;
+}
+
+#lian{
+	right: 20%;
+}
+
+.button p{
+	margin: 3px 0px;
+}
