@@ -55,7 +55,7 @@
 			<img id="png" src="./z.gif">
 		</a-assets-->
 		<!-- Create a anchor to attach your augmented reality -->
-		<a-anchor hit-testing-enabled='false'>
+		<a-anchor hit-testing-enabled='true'>
 
 			<!-- Add your augmented reality here -->
 			<!--a-box position='0 0.5 0' material='opacity: 0.5; side:double; color:red;'>
@@ -64,7 +64,7 @@
 				</a-torus-knot>
 			</a-box-->
             <!--a-image src="#png"></a-image-->
-            <a-entity geometry="primitive:plane" material="shader:gif;src:url(z.gif);" gif=""></a-entity>
+            <a-entity geometry="primitive:plane; width:3; height:3" material="shader:gif;src:url(z.gif);" gif=""></a-entity>
 		</a-anchor>
 
 
