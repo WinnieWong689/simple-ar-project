@@ -22,3 +22,17 @@
 .button p{
 	margin: 3px 0px;
 }
+
+#switch-btn{
+	padding: 8px;
+	border-radius: 12px;
+	background-color: #58baaa;
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	z-index: 1;
+}
+
+#switch-btn p{
+	margin:0;
+}
