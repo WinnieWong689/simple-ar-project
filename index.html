@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
     <title>以爱起航 潘粤明5.09生日快乐</title>
     <link type="text/css" rel="stylesheet" href="./css/mystyle.css">
+    
 </head>
 <body>
-	<a href="./ar.html"><img src="birth.jpg" id="bg"></a>
+	<a href="" id="link"><img src="birth.jpg" id="bg"></a>
+	<script type="text/javascript">
+		window.onload = function() {
+		var number = Math.random()*4;
+		var ceilOfNumber = Math.ceil(number);
+		var path = "ar"+ ceilOfNumber +".html";
+		var aTag = document.getElementById("link");
+		aTag.setAttribute("href",path);
+		}
+	</script>
 </body>
+
 </html>

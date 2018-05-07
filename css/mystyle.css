@@ -36,3 +36,21 @@
 #switch-btn p{
 	margin:0;
 }
+
+#switch-btn:hover{
+	cursor: pointer;
+}
+
+a:link{
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited{
+	text-decoration: none;
+	color:#000000;
+}
+
+a:hover{
+	text-decoration: none;
+}
