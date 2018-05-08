@@ -11,14 +11,6 @@
 	padding: 0px 20px;
 }
 
-#yu{
-	left: 20%;
-}
-
-#lian{
-	right: 20%;
-}
-
 .button p{
 	margin: 3px 0px;
 }
@@ -42,15 +34,9 @@
 }
 
 a:link{
-	text-decoration: none;
 	color: #000000;
 }
 
 a:visited{
-	text-decoration: none;
 	color:#000000;
-}
-
-a:hover{
-	text-decoration: none;
 }
